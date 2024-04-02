@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+    
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 30px;
+
+}
+.nav-list li a{
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bold;
+ text-decoration: none;
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 20px;
+    
+}
+.logo{
+    width: 50%;
+    display: flex;
+    padding-left: 20%;
+    padding-bottom: 15%;
+}
+.logo img{
+    width: 100px;
+    border-radius: 60px;
+    border-style:ridge;
+    border-color:solid rgb(10, 5, 5);
+}
+.btn{
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: antiquewhite;
+    background-color: rgb(99, 44, 96);
+    font-size: 110%;
+    text-align: center;
+    text-decoration-color: aliceblue;
+}
+.btn:hover{
+    background-color: rgb(216, 68, 9);
+}
+.background{
+    background: rgb(213, 241, 252) url("");
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+
+
+}
+.text,a{
+    float: left;
+    display: flex;
+    text-decoration: none;
+    text-decoration: solid;
+    color: rgb(241, 61, 6);
+    padding-bottom: 108%;
+    padding-right: 40%;
+}
+a:hover{
+    color: blue;
+}
+
+
+
+
+
+.fristsection{
+    height: 100vh;
+}
+.fristHalf{
+    display: flex;
+    width: 50%;
+    
+}
+.secondHalf{
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    
+
+}
+.nav-list li a:hover{
+color: rgb(185, 199, 106);
+}
+.img {
+    display: flex;
+    border-radius: 20%;
+    width: 110%;
+    height: 250px;
+margin: auto;
+border-style: ridge;
+
+}
+.btnlogin-popup{
+    width: 130px;
+    color: rgb(175, 98, 35);
+    background:rgb(61, 7, 71);
+    border: 2px; 
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.0cm;
+    font-style: oblique;
+    border-style: ridge;
+    color: rgb(206, 153, 111);
+    margin-left: 40px;
+    font-weight: 500;
+
+
+}
+.btnlogin-popup:hover{
+    background-color: rgb(58, 56, 58);
+    box-shadow: rgb(64, 24, 71);
+
+}
+.notice{
+    text-decoration: none;
+    font-size: 30px;
+    color: darkorange;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: rgb(54, 104, 212);
+    background-color: rgb(10, 8, 12);
+    transform: translatex(100%);
+    animation: notice 30s linear infinite;
+
+}
+@keyframes notice {
+    0%{
+        transform: translatex(100%);
+
+    }
+    100%{
+        transform: translatex(-100%);
+    }
+    
+}
+.nbar{
+    float: left;
+    display: flex;
+    padding-right: 25%;
+    color: greenyellow;
+    padding-top:6% ;
+
+}
+a{
+    font-weight: bold;
+    
+}
+    
+a:hover{
+    color: rgb(27, 106, 151);
+}
+.imp{
+    display: flex;
+    color: rgb(2, 1, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background: rgb(10, 101, 161);
+    padding-bottom: 18%;
+    padding-top: 18%;
+    margin-left: 85%;
+    text-align: center;
+    align-items: center;
+    height: 30%;
+    width: 50%;
+    
+}
+.mop {
+    display: flex;
+   align-items: center;
+   text-align: center;
+   padding-left: 70%;
+   padding-bottom: 20%;
+   height: 6%;
+   width:5%;
+}
+.ipl{
+    height: 10%;
+    width: 98%;
+    text-align: center;
+    align-items: center;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: darkorange;
+}
+h2{
+    background-color: crimson;
+    border: rgb(4, 26, 122);
+    border-radius: 5px;
+    border-style: ridge;
+}
+.last{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(172, 11, 19);
+    height: 20%;
+    border: 8px;
+    border: rgb(68, 0, 0);
+    border-style: ridge;
+}
+.sug{
+    text-decoration: underline;
+    background-color: rgb(255, 158, 31);
+    font-weight: bold;
+    
+}
+.navbar{
+    background-color: rgb(172, 11, 19);
+    border: rgb(44, 0, 0);
+    border-style: ridge;
+}

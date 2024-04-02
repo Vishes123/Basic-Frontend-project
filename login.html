@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collage.login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login.js">
+</head>
+<body>
+    <Div class="contaner">
+        <h1 class="label">User Login</h1>
+        <form class="login_form" method="post" name="form" onsubmit="return validated()">
+            <div class="font">Email or Phome</div>
+            <input type="text" name="Email or Name" id="Email or Name" required>
+            <div id="Email_error">Please fill up your Email or Name</div>
+            <div class=" font font2">Password</div>
+            <div id="Password_error">Please fill up your password</div>
+            <input type="password" name="Password" id="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </Div>
+    <script src="valid.js"></script>
+
+    
+</body>
+</html>
